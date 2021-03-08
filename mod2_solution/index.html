@@ -1,162 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <title>Assignment Solution for Module 2
 </title>
+    <link rel="stylesheet" href="css/styles.css">
+
 <style>
 
 /********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 100px;
-    text-align: center;
-    color: #003249;
-    font-family: "Book Antiqua";
-    font-size: 50px;
-}
-
-body {
-    background: #CCDBDC;
-    font-family: "Book Antiqua";
-
-}
-
-p.title_p {
-  border: 1px solid black;
-  background-color: #80CED7;
-  width: 30%;
-  height: 30px;
-    /*float: right;*/
-    text-align: center;
-  margin: 0px;
-    float: right;
-  /*margin-left: auto;*/
-  color: #003249;
-  font-family: "Book Antiqua ";
-    font-style: inherit;
-font-size: 20px;
-}
-
-p.content {
-    /*border: 2px solid #80CED7;*/
-  background-color: #003249;
-  width: 100%;
-  height: 170px;
-    /*float: right;*/
-    text-align: left;
-  /*margin-right: 0px;*/
-    padding: 5%;
-    border: 5px black;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-  color: #CCDBDC;
-  font-family: "Book Antiqua ";
-    font-style: inherit;
-font-size: 20px;
-}
-
-div.inside {
-    text-align: right;
-    background: #003249;
-    width: 100%;
-    height: 30px;
-}
-
-/*div {*/
-/*    width: 100%;*/
-/*}*/
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px ) {
-
-  .col-lg-1 {
-    width: 33.333%;
-      height: 300px;
-      float: left;
-      padding-left: 20px;
-      padding-right: 20px;
-            border: 1px black;
-    margin-bottom: 20px
-
-
-      /*background: #003249;*/
-  }
-
-
-    p.content {
-    /*border: 2px solid #80CED7;*/
-  height: 100%;
-
-}
-
-}
-
-div.wrapper {
-border: 1px black solid;
-}
-
-
-
-
-
-/*!********** Medium devices only **********!*/
-@media (min-width: 768px) and (max-width: 991px)  {
-
-  .col-md-1 {
-    width: 50%;
-      padding-left: 20px;
-      padding-right: 20px;
-          float: left;
-    margin-bottom: 20px
-
-  }
-  .col-md-2 {
-      width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-          float: left;
-    margin-bottom: 20px
-
-  }
-
-
-    p.content {
-    /*border: 2px solid #80CED7;*/
-  height: 100%;
-
-    }
-
-
-}
-
-
-@media (max-width: 767px)  {
-
-  .col-sm-1 {
-    width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-          float: left;
-      height: 100%;
-    margin-bottom: 20px
-  }
-
-
-  p.content {
-    /*border: 2px solid #80CED7;*/
-  height: 100%;
-
-    }
-}
 
 </style>
 </head>
@@ -167,7 +19,7 @@ border: 1px black solid;
   <div class="col-lg-1 col-md-1 col-sm-1">
 
       <div class="wrapper">
-                  <div class="inside"> <p class="title_p" style="background-color: lightsalmon">Chicken</p>
+                  <div class="inside"> <p class="title_p_ch">Chicken</p>
                 </div>
                   <div >       <p class="content" style="border: black"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
                       quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
@@ -179,7 +31,7 @@ border: 1px black solid;
   </div>
   <div class="col-lg-1 col-md-1 col-sm-1">
       <div class="wrapper">
-                  <div class="inside"> <p class="title_p" style="background-color: lightcoral">Beef</p>
+                  <div class="inside"> <p class="title_p_bf">Beef</p>
                 </div>
                   <div >       <p class="content" style="border: black"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
                       quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
@@ -191,7 +43,7 @@ border: 1px black solid;
 
   <div class="col-lg-1 col-md-2 col-sm-1">
       <div class="wrapper">
-                  <div class="inside"> <p class="title_p"  style="background-color: lightcyan">Sushi</p>
+                  <div class="inside"> <p class="title_p_sh">Sushi</p>
                 </div>
                   <div >       <p class="content" style="border: black"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
                       quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
