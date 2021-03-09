@@ -34,6 +34,10 @@
     /*position: center;*/
 }
 
+a:hover{
+    background-color: #2aabd2;
+}
+
 ul {
     text-align: center;
 }
