@@ -26,7 +26,7 @@
     background-color: #3C4C5C;
     height: 2em;
     color: #BEC9D4;
-    width: 1000px;
+    width: 100%;
     margin-left: auto;
     /*margin-top: 20px;*/
     /*!*margin-right: 20px;*!*/
@@ -50,6 +50,12 @@ ul {
     color: #BEC9D4;
 }
 
+#contenido{
+    height: 1000px;
+}
+
+
+
 .cont_1 {
     font-size: 1.2em;
     text-align: center;
@@ -61,6 +67,9 @@ ul {
     /*margin-top: 20px;*/
     /*!*margin-right: 20px;*!*/
     padding-left: 20px;
+        padding-right: 20px;
+
+    padding-bottom: 50px;
     /*position: center;*/
 }
 
