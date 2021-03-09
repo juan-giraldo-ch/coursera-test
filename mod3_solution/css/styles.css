@@ -38,6 +38,10 @@ a:hover{
     background-color: #2aabd2;
 }
 
+a {
+    color: #BEC9D4;
+}
+
 ul {
     text-align: center;
 }
